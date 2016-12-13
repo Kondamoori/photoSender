@@ -1,0 +1,6 @@
+framework module Pods_sharePhotoExtension {
+  umbrella header "Pods-sharePhotoExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
