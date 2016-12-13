@@ -7,39 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0200D507EDB663052D853D6D /* Pods_photoSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AB014677997017C26FCC1 /* Pods_photoSender.framework */; };
+		AF7E7C5A49AE7643FA5B9736 /* Pods_sharePhotoExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12BFA04CE3E4E84D7993210 /* Pods_sharePhotoExtension.framework */; };
+		FA4F49D21D410045004F89F1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4F49D01D410045004F89F1 /* MainInterface.storyboard */; };
+		FA4F49D61D410045004F89F1 /* sharePhotoExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA4F49CC1D410045004F89F1 /* sharePhotoExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA4F49DE1D411241004F89F1 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F49CE1D410045004F89F1 /* ShareViewController.swift */; };
+		FA4F49EA1D4116CE004F89F1 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F49CE1D410045004F89F1 /* ShareViewController.swift */; };
+		FA4F49EF1D41212B004F89F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC82C331D40C70600230CE2 /* AppDelegate.swift */; };
+		FA4F49F01D412131004F89F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC82C351D40C70600230CE2 /* ViewController.swift */; };
+		FA4F49F21D414290004F89F1 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F49F11D414290004F89F1 /* Api.swift */; };
+		FA4F49F31D41439A004F89F1 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F49F11D414290004F89F1 /* Api.swift */; };
+		FA61C0091D423432007C66E8 /* QRCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61C0081D423432007C66E8 /* QRCaptureViewController.swift */; };
+		FA61C00A1D4244FD007C66E8 /* QRCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61C0081D423432007C66E8 /* QRCaptureViewController.swift */; };
+		FA8673C41D477B03008579B8 /* icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8673C31D477B03008579B8 /* icons.xcassets */; };
 		FAC82C341D40C70600230CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC82C331D40C70600230CE2 /* AppDelegate.swift */; };
 		FAC82C361D40C70600230CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC82C351D40C70600230CE2 /* ViewController.swift */; };
 		FAC82C391D40C70600230CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC82C371D40C70600230CE2 /* Main.storyboard */; };
-		FAC82C3B1D40C70600230CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC82C3A1D40C70600230CE2 /* Assets.xcassets */; };
 		FAC82C3E1D40C70600230CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC82C3C1D40C70600230CE2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FA4F49D41D410045004F89F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC82C281D40C70500230CE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4F49CB1D410045004F89F1;
+			remoteInfo = sharePhotoExtension;
+		};
+		FA4F49DB1D411158004F89F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC82C281D40C70500230CE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC82C2F1D40C70500230CE2;
+			remoteInfo = photoSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA4F49DA1D410045004F89F1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA4F49D61D410045004F89F1 /* sharePhotoExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4894DE7E2B400ECA083AC139 /* Pods-photoSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoSender.release.xcconfig"; path = "Pods/Target Support Files/Pods-photoSender/Pods-photoSender.release.xcconfig"; sourceTree = "<group>"; };
+		B228A4C69887ECDE0774C557 /* Pods-sharePhotoExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharePhotoExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sharePhotoExtension/Pods-sharePhotoExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		C161BF26837541EC5BDCE391 /* Pods-photoSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoSender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photoSender/Pods-photoSender.debug.xcconfig"; sourceTree = "<group>"; };
+		F12BFA04CE3E4E84D7993210 /* Pods_sharePhotoExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharePhotoExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A071461DACE48B3CF04488 /* Pods-sharePhotoExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharePhotoExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-sharePhotoExtension/Pods-sharePhotoExtension.release.xcconfig"; sourceTree = "<group>"; };
+		FA4F49C71D40FAC9004F89F1 /* photoSender.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = photoSender.entitlements; sourceTree = "<group>"; };
+		FA4F49CC1D410045004F89F1 /* sharePhotoExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = sharePhotoExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4F49CE1D410045004F89F1 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		FA4F49D11D410045004F89F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FA4F49D31D410045004F89F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4F49E11D411284004F89F1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/photoSender-ayiyrtbmbtjkvrgahuselnhhavpn/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		FA4F49E61D411300004F89F1 /* Pods_photoSender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_photoSender.framework; path = "../../Library/Developer/Xcode/DerivedData/photoSender-ayiyrtbmbtjkvrgahuselnhhavpn/Build/Products/Debug-iphonesimulator/Pods_photoSender.framework"; sourceTree = "<group>"; };
+		FA4F49F11D414290004F89F1 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		FA4F49F51D4146C4004F89F1 /* sharePhotoExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = sharePhotoExtension.entitlements; sourceTree = "<group>"; };
+		FA61C0081D423432007C66E8 /* QRCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCaptureViewController.swift; sourceTree = "<group>"; };
+		FA8673C31D477B03008579B8 /* icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icons.xcassets; sourceTree = "<group>"; };
+		FA8AB014677997017C26FCC1 /* Pods_photoSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photoSender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC82C301D40C70500230CE2 /* photoSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC82C331D40C70600230CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC82C351D40C70600230CE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAC82C381D40C70600230CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAC82C3A1D40C70600230CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC82C3D1D40C70600230CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC82C3F1D40C70600230CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA4F49C91D410045004F89F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7E7C5A49AE7643FA5B9736 /* Pods_sharePhotoExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAC82C2D1D40C70500230CE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0200D507EDB663052D853D6D /* Pods_photoSender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FF5D4B884C1C90182B6F27D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4F49E61D411300004F89F1 /* Pods_photoSender.framework */,
+				FA4F49E11D411284004F89F1 /* Alamofire.framework */,
+				FA8AB014677997017C26FCC1 /* Pods_photoSender.framework */,
+				F12BFA04CE3E4E84D7993210 /* Pods_sharePhotoExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36FC6457864F1B8EB7DC442B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C161BF26837541EC5BDCE391 /* Pods-photoSender.debug.xcconfig */,
+				4894DE7E2B400ECA083AC139 /* Pods-photoSender.release.xcconfig */,
+				B228A4C69887ECDE0774C557 /* Pods-sharePhotoExtension.debug.xcconfig */,
+				F3A071461DACE48B3CF04488 /* Pods-sharePhotoExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA4F49CD1D410045004F89F1 /* sharePhotoExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FA4F49F51D4146C4004F89F1 /* sharePhotoExtension.entitlements */,
+				FA4F49CE1D410045004F89F1 /* ShareViewController.swift */,
+				FA4F49D01D410045004F89F1 /* MainInterface.storyboard */,
+				FA4F49D31D410045004F89F1 /* Info.plist */,
+			);
+			path = sharePhotoExtension;
+			sourceTree = "<group>";
+		};
 		FAC82C271D40C70500230CE2 = {
 			isa = PBXGroup;
 			children = (
+				FA8673C31D477B03008579B8 /* icons.xcassets */,
 				FAC82C321D40C70600230CE2 /* photoSender */,
+				FA4F49CD1D410045004F89F1 /* sharePhotoExtension */,
 				FAC82C311D40C70500230CE2 /* Products */,
+				36FC6457864F1B8EB7DC442B /* Pods */,
+				1FF5D4B884C1C90182B6F27D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC82C301D40C70500230CE2 /* photoSender.app */,
+				FA4F49CC1D410045004F89F1 /* sharePhotoExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,10 +160,12 @@
 		FAC82C321D40C70600230CE2 /* photoSender */ = {
 			isa = PBXGroup;
 			children = (
+				FA4F49C71D40FAC9004F89F1 /* photoSender.entitlements */,
 				FAC82C331D40C70600230CE2 /* AppDelegate.swift */,
 				FAC82C351D40C70600230CE2 /* ViewController.swift */,
+				FA61C0081D423432007C66E8 /* QRCaptureViewController.swift */,
+				FA4F49F11D414290004F89F1 /* Api.swift */,
 				FAC82C371D40C70600230CE2 /* Main.storyboard */,
-				FAC82C3A1D40C70600230CE2 /* Assets.xcassets */,
 				FAC82C3C1D40C70600230CE2 /* LaunchScreen.storyboard */,
 				FAC82C3F1D40C70600230CE2 /* Info.plist */,
 			);
@@ -67,17 +175,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAC82C2F1D40C70500230CE2 /* photoSender */ = {
+		FA4F49CB1D410045004F89F1 /* sharePhotoExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAC82C421D40C70600230CE2 /* Build configuration list for PBXNativeTarget "photoSender" */;
+			buildConfigurationList = FA4F49D71D410045004F89F1 /* Build configuration list for PBXNativeTarget "sharePhotoExtension" */;
 			buildPhases = (
-				FAC82C2C1D40C70500230CE2 /* Sources */,
-				FAC82C2D1D40C70500230CE2 /* Frameworks */,
-				FAC82C2E1D40C70500230CE2 /* Resources */,
+				27EC3E14FB84A84027007D68 /* [CP] Check Pods Manifest.lock */,
+				FA4F49C81D410045004F89F1 /* Sources */,
+				FA4F49C91D410045004F89F1 /* Frameworks */,
+				FA4F49CA1D410045004F89F1 /* Resources */,
+				E982DDFCF29406F95C2BCD46 /* [CP] Embed Pods Frameworks */,
+				9C7B5206794F3C2DA338A9AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FA4F49DC1D411158004F89F1 /* PBXTargetDependency */,
+			);
+			name = sharePhotoExtension;
+			productName = sharePhotoExtension;
+			productReference = FA4F49CC1D410045004F89F1 /* sharePhotoExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FAC82C2F1D40C70500230CE2 /* photoSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC82C421D40C70600230CE2 /* Build configuration list for PBXNativeTarget "photoSender" */;
+			buildPhases = (
+				EDB5BD03378129493196235F /* [CP] Check Pods Manifest.lock */,
+				FAC82C2C1D40C70500230CE2 /* Sources */,
+				FAC82C2D1D40C70500230CE2 /* Frameworks */,
+				FAC82C2E1D40C70500230CE2 /* Resources */,
+				7671982C3373637A1A36BFDE /* [CP] Embed Pods Frameworks */,
+				D7C554F6A80135520DE2673E /* [CP] Copy Pods Resources */,
+				FA4F49DA1D410045004F89F1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4F49D51D410045004F89F1 /* PBXTargetDependency */,
 			);
 			name = photoSender;
 			productName = photoSender;
@@ -90,13 +224,27 @@
 		FAC82C281D40C70500230CE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = macbook;
 				TargetAttributes = {
+					FA4F49CB1D410045004F89F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FD6ZML48V9;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					FAC82C2F1D40C70500230CE2 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = ZFJQ8ZMC8J;
+						DevelopmentTeam = FD6ZML48V9;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -114,36 +262,174 @@
 			projectRoot = "";
 			targets = (
 				FAC82C2F1D40C70500230CE2 /* photoSender */,
+				FA4F49CB1D410045004F89F1 /* sharePhotoExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA4F49CA1D410045004F89F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4F49D21D410045004F89F1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAC82C2E1D40C70500230CE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FAC82C3E1D40C70600230CE2 /* LaunchScreen.storyboard in Resources */,
-				FAC82C3B1D40C70600230CE2 /* Assets.xcassets in Resources */,
 				FAC82C391D40C70600230CE2 /* Main.storyboard in Resources */,
+				FA8673C41D477B03008579B8 /* icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27EC3E14FB84A84027007D68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7671982C3373637A1A36BFDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photoSender/Pods-photoSender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7B5206794F3C2DA338A9AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sharePhotoExtension/Pods-sharePhotoExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C554F6A80135520DE2673E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photoSender/Pods-photoSender-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E982DDFCF29406F95C2BCD46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sharePhotoExtension/Pods-sharePhotoExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB5BD03378129493196235F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FA4F49C81D410045004F89F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61C00A1D4244FD007C66E8 /* QRCaptureViewController.swift in Sources */,
+				FA4F49F31D41439A004F89F1 /* Api.swift in Sources */,
+				FA4F49F01D412131004F89F1 /* ViewController.swift in Sources */,
+				FA4F49EF1D41212B004F89F1 /* AppDelegate.swift in Sources */,
+				FA4F49DE1D411241004F89F1 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAC82C2C1D40C70500230CE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4F49EA1D4116CE004F89F1 /* ShareViewController.swift in Sources */,
 				FAC82C361D40C70600230CE2 /* ViewController.swift in Sources */,
+				FA4F49F21D414290004F89F1 /* Api.swift in Sources */,
+				FA61C0091D423432007C66E8 /* QRCaptureViewController.swift in Sources */,
 				FAC82C341D40C70600230CE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FA4F49D51D410045004F89F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4F49CB1D410045004F89F1 /* sharePhotoExtension */;
+			targetProxy = FA4F49D41D410045004F89F1 /* PBXContainerItemProxy */;
+		};
+		FA4F49DC1D411158004F89F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC82C2F1D40C70500230CE2 /* photoSender */;
+			targetProxy = FA4F49DB1D411158004F89F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		FA4F49D01D410045004F89F1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4F49D11D410045004F89F1 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		FAC82C371D40C70600230CE2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -163,6 +449,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FA4F49D81D410045004F89F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B228A4C69887ECDE0774C557 /* Pods-sharePhotoExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_ENTITLEMENTS = sharePhotoExtension/sharePhotoExtension.entitlements;
+				INFOPLIST_FILE = sharePhotoExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.photoSender.sharePhotoExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA4F49D91D410045004F89F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A071461DACE48B3CF04488 /* Pods-sharePhotoExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_ENTITLEMENTS = sharePhotoExtension/sharePhotoExtension.entitlements;
+				INFOPLIST_FILE = sharePhotoExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.photoSender.sharePhotoExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FAC82C401D40C70600230CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -246,9 +562,13 @@
 		};
 		FAC82C431D40C70600230CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C161BF26837541EC5BDCE391 /* Pods-photoSender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = photoSender/photoSender.entitlements;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = photoSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.photoSender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -257,9 +577,13 @@
 		};
 		FAC82C441D40C70600230CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4894DE7E2B400ECA083AC139 /* Pods-photoSender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = photoSender/photoSender.entitlements;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = photoSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.photoSender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -269,6 +593,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA4F49D71D410045004F89F1 /* Build configuration list for PBXNativeTarget "sharePhotoExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4F49D81D410045004F89F1 /* Debug */,
+				FA4F49D91D410045004F89F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAC82C2B1D40C70500230CE2 /* Build configuration list for PBXProject "photoSender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -285,6 +618,7 @@
 				FAC82C441D40C70600230CE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

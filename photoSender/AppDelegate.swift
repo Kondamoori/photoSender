@@ -13,9 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        let nav = UINavigationController()
+        let mainView = ViewController(nibName: nil, bundle: nil)
+    
+        nav.viewControllers = [mainView]
+        
+        nav.navigationBarHidden=true
+        
+        self.window!.rootViewController = nav
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
